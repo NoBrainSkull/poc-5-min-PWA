@@ -1,0 +1,17 @@
+{
+  "short_name": "5 Min PWA",
+  "name": "A very basic but working pwa",
+  "icons": [
+    {
+      "src": "/images/logo.png",  
+      "type": "image/png",
+      "sizes": "144x144",
+      "purpose": "maskable any"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#fff",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#000"  
+}

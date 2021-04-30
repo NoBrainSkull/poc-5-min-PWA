@@ -24,7 +24,7 @@ defmodule Poc5MinPwaWeb.Endpoint do
     at: "/",
     from: :poc_5_min_pwa,
     gzip: false,
-    only: ~w(css fonts images js favicon.ico robots.txt)
+    only: ~w(css fonts images js favicon.ico robots.txt service_worker.js cache_manifest.json manifest.json)
 
   # Code reloading can be explicitly enabled under the
   # :code_reloader configuration of your endpoint.
